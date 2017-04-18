@@ -1,0 +1,41 @@
+{
+  "name": "babel-now",
+  "version": "0.0.0",
+  "description": "Babel as a service: compile ES2015+ code to support user's browser.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "1pretest": "standard",
+    "test": "mocha --require should"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerhut/babel-now.git"
+  },
+  "keywords": [
+    "babel",
+    "proxy"
+  ],
+  "author": "George Chung <Gerhut@GMail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gerhut/babel-now/issues"
+  },
+  "homepage": "https://github.com/Gerhut/babel-now#readme",
+  "engines": {
+    "node": "^7.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.1",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "koa": "^2.2.0",
+    "koa-send": "^4.0.0",
+    "superagent": "^3.5.2",
+    "useragent": "^2.1.13"
+  }
+}
