@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Gerhut/babel-now#readme",
   "engines": {
-    "node": "^7.6.0"
+    "node": "^10.13.0"
   },
   "devDependencies": {
     "mocha": "^6.0.0",
